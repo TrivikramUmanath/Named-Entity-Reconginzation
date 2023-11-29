@@ -12,7 +12,7 @@ import os
 print("Directories are")
 print( os.listdir())
 # loading the saved model
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('/trained_model.sav', 'rb'))
 
 
 
