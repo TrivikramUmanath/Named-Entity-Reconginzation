@@ -10,6 +10,7 @@ import pickle
 import os
 
 print("Directories are")
+os.system('sudo pip install scikit-learn')
 print( os.listdir())
 # loading the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
