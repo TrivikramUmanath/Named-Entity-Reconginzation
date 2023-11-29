@@ -15,6 +15,8 @@ from nltk.tokenize import word_tokenize
 
 
 
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 # loading the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
