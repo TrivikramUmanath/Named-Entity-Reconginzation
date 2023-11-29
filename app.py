@@ -78,7 +78,7 @@ def main():
     st.title("Named Entity Recognition")
     html_temp = """
     <div style="background-color:tomato;padding:10px">
-    <h2 style="color:white;text-align:center;">Streamlit Inhabitants ML App </h2>
+    <h2 style="color:white;text-align:center;">Streamlit Named Entity Recognition </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
