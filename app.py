@@ -11,9 +11,8 @@ import os
 
 print("Directories are")
 print( os.listdir())
-
-pickle_in = open("svm_classifier_model.pkl","rb")
-clf=pickle.load(pickle_in)
+# loading the saved model
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 
 
